@@ -1,0 +1,35 @@
+.pokemon {
+    width: 18rem;
+    border: solid 5px yellow;
+}
+
+.pokemon-body{
+    width: 18rem;
+    border-top: solid 5px yellow;
+}
+
+.pmons-disp{
+       display: flex;
+    flex-grow: inherit;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.side-bar {
+display: flex;
+    list-style: none;
+       float: inherit;
+    padding-left: 30%;
+
+    /* display: inline;
+    list-style: none;
+    float: left;
+    padding-top: 15%; */
+}
+
+.side-bar li {
+font-family: fantasy;
+    font-size: xx-large;
+       padding-right: 20px;
+}
